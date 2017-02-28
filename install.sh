@@ -63,6 +63,13 @@ brew cleanup
 brew cask cleanup
 
 #
+# python
+#
+
+echo "Upgrading pip"
+pip install --upgrade pip setuptools
+
+#
 # git
 #
 
