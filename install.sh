@@ -63,6 +63,13 @@ brew cleanup
 brew cask cleanup
 
 #
+# ruby
+#
+
+echo "Upgrading ruby gems"
+gem update
+
+#
 # python
 #
 
